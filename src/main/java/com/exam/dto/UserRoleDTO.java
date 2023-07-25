@@ -2,9 +2,11 @@ package com.exam.dto;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 @ApiModel(value = "User_Role DTO")
 public class UserRoleDTO extends AbstractDTO {
 
