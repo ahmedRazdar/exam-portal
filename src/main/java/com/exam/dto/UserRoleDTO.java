@@ -12,7 +12,7 @@ public class UserRoleDTO extends AbstractDTO {
     private String Id;
 
     //relations
-    private UserDTO User;
-    private RolDTO  Rol;
+    private UserDTO userDTO;
+    private RoleDTO roleDTO;
 
 }

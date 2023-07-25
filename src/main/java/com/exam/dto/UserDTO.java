@@ -27,8 +27,9 @@ public class UserDTO extends AbstractDTO {
     @ApiModelProperty(value="Profile")
     private String profile;
     @ApiModelProperty(value="Enabled")
-    private boolean enabled = true;
+    private String enabled;
 
     //relation ships
     List<UserRoleDTO> userRoleDTOS;
+
 }

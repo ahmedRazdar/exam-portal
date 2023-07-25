@@ -8,7 +8,7 @@ import java.util.List;
 
 @Data
 @ApiModel(value = "Role Dto")
-public class RolDTO {
+public class RoleDTO {
 
     @ApiModelProperty(value = "id", notes = "The database generated ID", hidden = true)
     private String id;
